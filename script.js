@@ -1,19 +1,19 @@
 //Quiz questions
 const questions = [
   {
-    question: "What does CSS stand for?",
-    a: "Coding Summer/Spring School",
-    b: "Coding Style Sheets",
-    c: "Cascading Simple Sheets",
-    d: "Cars SUVs & Sailboats",
-    correct: "a",
+    question: "how many hooks do you need for crocheting?",
+    a: "6",
+    b: "1",
+    c: "4",
+    d: "2",
+    correct: "b",
   },
   {
-    question: "When was Coding Summer/Spring School founded?",
-    a: "2018",
-    b: "2021",
-    c: "2022",
-    d: "2023",
+    question: "how many days you need to make cardigan?",
+    a: "5",
+    b: "17",
+    c: "5",
+    d: "30",
     correct: "b",
   },
   {
