@@ -6,6 +6,7 @@ const questions = [
     b: "1",
     c: "4",
     d: "2",
+    e: "1",
     correct: "b",
   },
   {
@@ -14,6 +15,7 @@ const questions = [
     b: "17",
     c: "5",
     d: "30",
+    e: "1",
     correct: "b",
   },
   {
@@ -22,8 +24,27 @@ const questions = [
     b: "Bosnia and Herzegovina Futures Foundation",
     c: "Bosnia and Herzegovina Factory Foundation",
     d: "none of the above",
-    correct: "b",
+    correct: "c",
   },
+  {
+    question: "which is the best type of yarn for amigurumui?",
+    a: "akrylik",
+    b: "wool ",
+    c: "merino wool",
+    d: "bernat plushie yarn",
+    e: "silk yarn"
+    correct: "d",
+  },
+  {
+    question: "which is the best type of yarn for bags?",
+    a: "akrylik 4,5 tch",
+    b: "wool chunky ",
+    c: "merino wool 7,8 dch",
+    d: "bernat plushie yarn ",
+    e: "t-shirt yarn"
+    correct: "d",
+  },
+
 ];
 
 //Fetching the HTML elements
@@ -34,6 +55,7 @@ const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
+const e_text = document.getElementById("e_text")
 const submitButton = document.getElementById("submit");
 
 //Counters
@@ -63,6 +85,7 @@ const loadQuiz = () => {
   b_text.innerText = currentQuizData.b;
   c_text.innerText = currentQuizData.c;
   d_text.innerText = currentQuizData.d;
+  e_text.innerText = currentQuizData.e;
 };
 
 //Loading the quiz

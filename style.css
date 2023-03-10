@@ -23,8 +23,9 @@ body {
   width: 600px;
   max-width: 95vw;
   overflow: hidden;
-}
 
+
+}
 .quiz-header {
   padding: 4rem;
 }
@@ -50,7 +51,7 @@ ul li label {
 }
 
 button {
-  background-color: #8e44ad;
+  background-color: #0074D9;
   color: #fff;
   border: none;
   display: block;
@@ -62,10 +63,10 @@ button {
 }
 
 button:hover {
-  background-color: #732d91;
+  background-color:#001f3f ;
 }
 
 button:focus {
   outline: none;
-  background-color: #5e3370;
+  background-color:#001f3f ;
 }
